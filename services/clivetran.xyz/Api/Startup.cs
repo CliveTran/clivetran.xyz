@@ -1,6 +1,6 @@
 ﻿using Infrastructure;
 
-namespace clivetran.xyz
+namespace Api
 {
     public class Startup
     {

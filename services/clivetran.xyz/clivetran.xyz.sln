@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "clivetran.xyz", "clivetran.xyz\clivetran.xyz.csproj", "{E03DAB1A-A03E-4C41-AA03-D9DA0D3D93FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{00545F13-5BF4-47BA-99BF-04DDDD11F5E6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{39A6EC00-1C23-421D-899A-808D775FA554}"
 EndProject
@@ -15,10 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E03DAB1A-A03E-4C41-AA03-D9DA0D3D93FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E03DAB1A-A03E-4C41-AA03-D9DA0D3D93FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E03DAB1A-A03E-4C41-AA03-D9DA0D3D93FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E03DAB1A-A03E-4C41-AA03-D9DA0D3D93FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00545F13-5BF4-47BA-99BF-04DDDD11F5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00545F13-5BF4-47BA-99BF-04DDDD11F5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00545F13-5BF4-47BA-99BF-04DDDD11F5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00545F13-5BF4-47BA-99BF-04DDDD11F5E6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{39A6EC00-1C23-421D-899A-808D775FA554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{39A6EC00-1C23-421D-899A-808D775FA554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39A6EC00-1C23-421D-899A-808D775FA554}.Release|Any CPU.ActiveCfg = Release|Any CPU

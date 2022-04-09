@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace clivetran.xyz.Controllers
+namespace Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
