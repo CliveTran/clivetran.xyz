@@ -21,5 +21,26 @@ namespace Infrastructure
 
             base.OnModelCreating(builder);
         }
+
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
+        {
+            foreach (var entry in ChangeTracker.Entries<AuditableEntity>())
+            {
+                switch (entry.State)
+                {
+                    case EntityState.Added:
+                        entry.Entity.Created = DateTimeOffset.Now;
+                        break;
+
+                    case EntityState.Modified:
+                        entry.Entity.LastModified = DateTimeOffset.Now;
+                        break;
+                }
+            }
+
+            var result = await base.SaveChangesAsync(cancellationToken);
+
+            return result;
+        }
     }
 }

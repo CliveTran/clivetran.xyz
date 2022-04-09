@@ -1,12 +1,10 @@
 ﻿namespace Domain
 {
-    public class Post
+    public class Post : AuditableEntity
     {
         public int Id { get; set; }
 
         private string _title = string.Empty;
-
-        private string _content = string.Empty;
 
         public string Title
         {
@@ -20,6 +18,8 @@
                 _title = value;
             }
         }
+
+        private string _content = string.Empty;
 
         public string Content
         {
