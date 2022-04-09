@@ -7,10 +7,15 @@ namespace clivetran.xyz.Controllers
     [ApiController]
     public class BlogController : ControllerBase
     {
+        private readonly IConfiguration _configuration;
+        public BlogController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
         [HttpGet]
         public string Test()
         {
-            return "Hello world.";
+            return _configuration.GetConnectionString("DefaultConnection");
         }
     }
 }
