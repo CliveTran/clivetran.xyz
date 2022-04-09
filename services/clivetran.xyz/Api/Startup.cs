@@ -1,4 +1,5 @@
-﻿using Infrastructure;
+﻿using Application;
+using Infrastructure;
 
 namespace Api
 {
@@ -18,6 +19,7 @@ namespace Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
+            services.AddApplicationServices();
             services.AddInfrastructureServices(Configuration);
             services.AddHealthChecks().AddDbContextCheck();
         }

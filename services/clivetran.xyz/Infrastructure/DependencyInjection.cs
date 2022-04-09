@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Application.Interfaces;
+using Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -21,6 +23,8 @@ namespace Infrastructure
                         b => b.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName));
                 });
             }
+
+            services.AddScoped<IPostRepository, PostRepository>();
 
             return services;
         }
