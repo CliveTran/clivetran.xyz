@@ -11,6 +11,9 @@ namespace Infrastructure.Configurations
             builder.HasKey(p => p.Id);
             builder.Property(p => p.Title).IsRequired();
             builder.Property(p => p.Content).IsRequired();
+            builder.Property(p => p.ViewCount).IsRequired();
+            builder.Property(p => p.Upvote).IsRequired();
+            builder.Property(p => p.Downvote).IsRequired();
         }
     }
 }
