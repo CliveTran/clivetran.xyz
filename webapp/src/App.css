@@ -6,13 +6,44 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0px 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
 }
 
-.nav-menu {
+.nav__menu {
   display: flex;
 }
 
-.nav-menu > li {
+.nav__menu>li {
   list-style: none;
   padding: 10px;
+}
+
+.nav__menu>li>a, .nav>code>a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1366px;
+  margin: auto;
+  padding-top: 20px;
+  flex: 1;
+}
+
+.post__title {
+  margin: 0;
+}
+
+.footer {
+  height: 100px;
+  background-color: gainsboro;
+  text-align: center;
 }
