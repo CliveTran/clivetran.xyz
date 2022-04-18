@@ -1,3 +1,5 @@
+import "./../styles/Post.css"
+
 export default function Post(props) {
     return (
         <>

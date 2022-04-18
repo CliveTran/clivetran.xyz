@@ -1,0 +1,29 @@
+.logo {
+    width: 100px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2); */
+}
+
+.nav__menu {
+    display: flex;
+}
+
+.nav__menu>li {
+    list-style: none;
+    padding: 20px;
+}
+
+.nav__menu>li>a,
+.nav>code>a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+}
