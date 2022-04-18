@@ -1,6 +1,4 @@
 export default function Post(props) {
-    console.log("Logging props")
-    console.log(props);
     return (
         <>
             <div>

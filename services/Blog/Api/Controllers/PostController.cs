@@ -37,6 +37,7 @@ namespace Api.Controllers
             }
 
             return Ok(new PostDto { 
+                Id = post.Id,
                 Title = post.Title, 
                 Content = post.Content,
                 Summary = post.Summary,
@@ -55,6 +56,7 @@ namespace Api.Controllers
 
             return Ok(posts.Select(p => { 
                 return new PostDto {
+                    Id = p.Id,
                     Title = p.Title,
                     Content = p.Content,
                     Summary = p.Summary,
