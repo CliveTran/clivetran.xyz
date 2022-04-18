@@ -2,16 +2,16 @@
 using Domain;
 using MediatR;
 
-namespace Application
+namespace Application.Posts
 {
-    public class GetPost
+    public class GetAllPosts
     {
-        public class Query : IRequest<Post?>
+        public class Query : IRequest<IEnumerable<Post>>
         {
-            public int Id { get; set; }
+
         }
 
-        public class Handler : IRequestHandler<Query, Post?>
+        public class Handler : IRequestHandler<Query, IEnumerable<Post>>
         {
             private readonly IPostRepository _postRepository;
 
@@ -20,9 +20,9 @@ namespace Application
                 _postRepository = postRepository ?? throw new ArgumentNullException(nameof(postRepository));
             }
 
-            public async Task<Post?> Handle(Query request, CancellationToken cancellationToken)
+            public async Task<IEnumerable<Post>> Handle(Query request, CancellationToken cancellationToken)
             {
-                return await _postRepository.GetPostById(request.Id);
+                return await _postRepository.GetAllPosts();
             }
         }
     }

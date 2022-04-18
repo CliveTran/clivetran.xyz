@@ -2,7 +2,7 @@
 using Domain;
 using MediatR;
 
-namespace Application
+namespace Application.Posts
 {
     public class CreatePost
     {
@@ -11,6 +11,8 @@ namespace Application
             public string Title { get; set; } = string.Empty;
 
             public string Content { get; set; } = string.Empty;
+
+            public string Summary { get; set; } = string.Empty;
         }
 
         public class Handler : IRequestHandler<Command>
@@ -24,7 +26,7 @@ namespace Application
 
             public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
             {
-                var post = new Post { Title = request.Title, Content = request.Content };
+                var post = new Post { Title = request.Title, Content = request.Content, Summary = request.Summary };
 
                 await _postRepository.CreatePost(post);
 

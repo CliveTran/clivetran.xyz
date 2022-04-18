@@ -34,6 +34,21 @@
             }
         }
 
+        private string _summary = string.Empty;
+
+        public string Summary
+        {
+            get { return _summary; }
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new ArgumentException("Summary cannot be null.");
+                }
+                _summary = value;
+            }
+        }
+
         public int ViewCount { get; set; }
         public int Upvote { get; set; }
         public int Downvote { get; set; }

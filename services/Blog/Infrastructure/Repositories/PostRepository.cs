@@ -21,6 +21,11 @@ namespace Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
+        public async Task<IEnumerable<Post>> GetAllPosts()
+        {
+            return await _context.Posts.ToListAsync();
+        }
+
         public async Task<Post?> GetPostById(int id)
         {
             return await _context.Posts.FirstOrDefaultAsync(p => p.Id == id);

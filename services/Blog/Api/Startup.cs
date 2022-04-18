@@ -22,6 +22,14 @@ namespace Api
             services.AddApplicationServices();
             services.AddInfrastructureServices(Configuration);
             services.AddHealthChecks().AddDbContextCheck();
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    policy =>
+                    {
+                        policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+                    });
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -34,6 +42,7 @@ namespace Api
             }
 
             app.UseRouting();
+            app.UseCors();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
