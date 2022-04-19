@@ -1,6 +1,5 @@
-export default function Resume()
-{
+export default function Resume() {
     return (
-        <h3>This is my resume.</h3>
+        <h3>Coming soon.</h3>
     );
 }

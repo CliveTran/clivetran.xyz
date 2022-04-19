@@ -6,8 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
-    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2); */
+    padding: 0px 40px;
 }
 
 .nav__menu {
@@ -26,4 +25,24 @@
     cursor: pointer;
     font-size: large;
     font-weight: 600;
+    display: inline-block;
+    position: relative;
+}
+
+.nav__menu>li>a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #353535;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav__menu>li>a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }

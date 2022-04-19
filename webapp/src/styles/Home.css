@@ -1,0 +1,26 @@
+.intro {
+    font-size: 50px;
+    padding: 200px 0;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+.interest {
+    text-align: center;
+    align-items: center;
+}
+
+.interest>p {
+    font-size: 30px;
+}
+
+.interest__logo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.interest__logo>img {
+    padding: 50px;
+    max-width: 100px;
+}

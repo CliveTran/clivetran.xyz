@@ -1,6 +1,6 @@
 export default function Contact()
 {
     return (
-        <h3>This is my contact.</h3>
+        <h3>Coming soon.</h3>
     )
 }

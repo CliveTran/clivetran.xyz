@@ -1,0 +1,66 @@
+[
+    {
+        "title": "react",
+        "url": "/react/react.png"
+    },
+    {
+        "title": "angular",
+        "url": "/angular/angular.png"
+    },
+    {
+        "title": "js",
+        "url": "/javascript/javascript.png"
+    },
+    {
+        "title": "ts",
+        "url": "/typescript/typescript.png"
+    },
+    {
+        "title": "csharp",
+        "url": "/csharp/csharp.png"
+    },
+    {
+        "title": "dotnet",
+        "url": "/dotnet/dotnet.png"
+    },
+    {
+        "title": "redis",
+        "url": "/redis/redis.png"
+    },
+    {
+        "title": "mongo",
+        "url": "/mongodb/mongodb.png"
+    },
+    {
+        "title": "sql",
+        "url": "/sql/sql.png"
+    },
+    {
+        "title": "aws",
+        "url": "/aws/aws.png"
+    },
+    {
+        "title": "azure",
+        "url": "/azure/azure.png"
+    },
+    {
+        "title": "linux",
+        "url": "/linux/linux.png"
+    },
+    {
+        "title": "docker",
+        "url": "/docker/docker.png"
+    },
+    {
+        "title": "k8s",
+        "url": "/kubernetes/kubernetes.png"
+    },
+    {
+        "title": "ubuntu",
+        "url": "/ubuntu/ubuntu.png"
+    },
+    {
+        "title": "terraform",
+        "url": "/terraform/terraform.png"
+    }
+]
