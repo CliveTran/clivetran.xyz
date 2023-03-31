@@ -31,7 +31,7 @@
 			</ul>
 		</div>
 	</div>
-	<p>&#169; 2023 - Clive Tran</p>
+	<p class="text-center">&#169; 2023 - Clive Tran</p>
 </div>
 
 <style></style>

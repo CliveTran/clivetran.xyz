@@ -1,13 +1,14 @@
 <script></script>
 
 <div>
-	<h1>I'm Clive, an ordinary developer</h1>
-	<p>I'm interested in...</p>
+	<h1 class="h1">I'm Clive, an ordinary developer</h1>
+	<h4 class="h4">I'm interested in...</h4>
 	<ul>
 		<li>Fullstack development</li>
 		<li>Serverless</li>
 		<li>Clean code, software architecture</li>
 		<li>Algorithms</li>
+		<li>Simple, minimalist design</li>
 		<li>C#, JavaScript, TypeScript</li>
 	</ul>
 	<p>This blog is a work in progress, I'll mostly post tech related stuff</p>
@@ -20,13 +21,22 @@
 			href="mailto:tranvinhnhan@outlook.com"><strong>tranvinhnhan@outlook.com</strong></a
 		>
 	</p>
-	<h1>This blog's backlog:</h1>
-	<p><s>Mobile responsiveness</s></p>
-	<p><s>Resume page</s></p>
-	<p><s>Contact page</s></p>
-	<p>Blog functionality</p>
-	<p>Footer misc</p>
-	<p>Best practices</p>
+	<h4 class="h4">This blog's backlog:</h4>
+	<ul>
+		<li><s>Mobile responsiveness</s></li>
+		<li><s>Resume page</s></li>
+		<li><s>Contact page</s></li>
+		<li>Blog functionality</li>
+		<li>Footer misc</li>
+	</ul>
 </div>
 
-<style></style>
+<style lang="postcss">
+	ul {
+		padding-inline-start: 40px;
+		@apply my-2;
+	}
+	li {
+		@apply my-2;
+	}
+</style>
