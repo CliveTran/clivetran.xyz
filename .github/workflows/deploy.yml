@@ -10,13 +10,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Configure git credentials
-        uses: OleksiyRudenko/gha-git-credentials@v2.1.1
+      - name: Setup GIT token
+        uses: fregante/setup-git-token@v1
         with:
-          global: true
-          name: CliveTran
-          actor: CliveTran
-          email: ${{ secrets.GIT_EMAIL }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Checkout code
         uses: actions/checkout@v2
