@@ -4,6 +4,10 @@
 	import '../app.css';
 </script>
 
-<Navbar />
-<slot />
-<Footer />
+<div class="flex flex-col h-screen">
+	<Navbar />
+	<div class="container mx-auto flex-grow">
+		<slot />
+	</div>
+	<Footer />
+</div>
