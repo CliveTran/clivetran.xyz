@@ -17,7 +17,7 @@
 		tuned
 	</p>
 	<p>
-		If you want to contact me for work or by any chance, feel free to send me an email to <a
+		If you want to contact me for work or by any chance, feel free to send me an email to <a class="hover-underline"
 			href="mailto:tranvinhnhan@outlook.com"><strong>tranvinhnhan@outlook.com</strong></a
 		>
 	</p>

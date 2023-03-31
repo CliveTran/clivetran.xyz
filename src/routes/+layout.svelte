@@ -4,7 +4,7 @@
 	import '../app.css';
 </script>
 
-<div class="flex flex-col h-screen">
+<div class="flex flex-col h-screen max-sm:p-4">
 	<Navbar />
 	<div class="container mx-auto flex-grow">
 		<slot />

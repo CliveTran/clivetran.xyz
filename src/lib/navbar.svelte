@@ -10,13 +10,13 @@
 	<code class="p-6"><a class="font-semibold" href="/">/clivetran.xyz</a></code>
 	<ul class="p-6 hidden sm:flex">
 		<li class="px-6 font-semibold">
-			<a class="pb-1" href="/resume">Resume</a>
+			<a class="pb-1 hover-underline" href="/resume">Resume</a>
 		</li>
 		<li class="px-6 font-semibold">
-			<a class="pb-1" href="/blog">Blog</a>
+			<a class="pb-1 hover-underline" href="/blog">Blog</a>
 		</li>
 		<li class="px-6 font-semibold">
-			<a class="pb-1" href="/contact">Contact</a>
+			<a class="pb-1 hover-underline" href="/contact">Contact</a>
 		</li>
 	</ul>
 	<button class="p-6 sm:hidden" on:click={toggleMenu}>
@@ -48,19 +48,19 @@
 			<a
 				on:click={toggleMenu}
 				href="/resume"
-				class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+				class="text-center block px-4 py-2 text-sm hover:bg-black hover:text-white"
 				role="menuitem">Resume</a
 			>
 			<a
 				on:click={toggleMenu}
 				href="/blog"
-				class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+				class="text-center block px-4 py-2 text-sm hover:bg-black hover:text-white"
 				role="menuitem">Blog</a
 			>
 			<a
 				on:click={toggleMenu}
 				href="/contact"
-				class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+				class="text-center block px-4 py-2 text-sm hover:bg-black hover:text-white"
 				role="menuitem">Contact</a
 			>
 		</div>

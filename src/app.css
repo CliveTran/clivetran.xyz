@@ -32,6 +32,6 @@ code {
 	@apply text-lg font-medium my-1;
 }
 
-a:hover {
+a.hover-underline:hover {
 	@apply border-b-2 border-black;
 }
