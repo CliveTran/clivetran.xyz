@@ -31,3 +31,7 @@ code {
 .h6 {
 	@apply text-lg font-medium my-1;
 }
+
+a:hover {
+	@apply border-b-2 border-black;
+}
