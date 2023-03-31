@@ -18,8 +18,7 @@ jobs:
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/clivetran.xyz.git
           npm run build
-          echo your_cutom_domain.online > ./build/CNAME
-          cp .nojekyll build/.nojekyll
+          echo clivetran.xyz > ./build/CNAME
           npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
