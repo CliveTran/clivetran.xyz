@@ -16,7 +16,7 @@ jobs:
         run: npm install
       - name: Deploy with gh-pages
         run: |
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/clivetran.xyz.git
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/CliveTran/clivetran.xyz.git
           npm run build
           echo clivetran.xyz > ./build/CNAME
           npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
