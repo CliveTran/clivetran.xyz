@@ -13,8 +13,6 @@ jobs:
       - name: Git Config & Credentials
         uses: kota65535/github-git-config-action@v1.0.1
         with:
-          user.name: CliveTran
-          user.email: ${{ secrets.GIT_EMAIL }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Checkout code
         uses: actions/checkout@v2
