@@ -23,7 +23,7 @@
 		<li>Analyzing, dissecting work items into smaller tasks</li>
 	</ul>
 	<h3 class="h3">Achievements</h3>
-	<p>Microsoft Certified: <a class="hover-underline" href="https://www.credly.com/badges/da7db76b-c31e-445c-b299-66c8a384fb6c">AZ-900</a></p>
+	<p>Microsoft Certified: <a class="hover-underline" href="https://www.credly.com/badges/da7db76b-c31e-445c-b299-66c8a384fb6c" target="_blank" rel="noreferrer">AZ-900</a></p>
 </div>
 
 <style lang="postcss">
