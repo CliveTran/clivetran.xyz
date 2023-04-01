@@ -5,10 +5,10 @@
 	<h4 class="h4">I'm interested in...</h4>
 	<ul>
 		<li>Fullstack development</li>
-		<li>Serverless</li>
+		<li>Linux, serverless, networking</li>
 		<li>Clean code, software architecture</li>
 		<li>Algorithms</li>
-		<li>Simple, minimalist design</li>
+		<li>Simplicity, minimalist design</li>
 		<li>C#, JavaScript, TypeScript</li>
 	</ul>
 	<p>This blog is a work in progress, I'll mostly post tech related stuff</p>
