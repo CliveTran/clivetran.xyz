@@ -4,6 +4,10 @@
 	import '../app.css';
 </script>
 
+<svelte:head>
+	<title>Clive Tran</title>
+</svelte:head>
+
 <div class="flex flex-col h-screen max-sm:p-4">
 	<Navbar />
 	<div class="container mx-auto flex-grow">
