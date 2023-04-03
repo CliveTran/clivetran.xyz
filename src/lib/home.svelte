@@ -27,7 +27,7 @@
 		<li><s>Resume page</s></li>
 		<li><s>Contact page</s></li>
 		<li><s>Blog functionality</s></li>
-		<li>Buy me a coffee</li>
+		<li><s>Buy me a coffee</s></li>
 		<li>Footer misc</li>
 	</ul>
 </div>
