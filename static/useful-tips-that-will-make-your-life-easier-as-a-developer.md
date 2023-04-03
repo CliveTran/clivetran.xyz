@@ -4,7 +4,7 @@
 
 &nbsp;
 
-Here some tips that I use literally everyday as a Software Engineer:
+Here are some tips that I use literally everyday as a Software Engineer:
 
 * ##### Take advantage of ChatGPT whenever you can
 
