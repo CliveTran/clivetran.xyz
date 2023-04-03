@@ -16,8 +16,8 @@ Here are some tips that I use literally everyday as a Software Engineer:
 
 * ##### Make sure to understand things what you do to the very core
 
-    Don't underestimate the importance of fundamental knowledge. Don't just ask "what's the solution for this problem?" You also want to know "why" and "how". What does it bring to the table? How does it actually work? If you can explain complex knowledge to a 5-year-old kid, then you know you have a deep/comprehensive understanding of it.
+    Don't underestimate the importance of fundamental knowledge. Don't just ask, 'What's the solution to this problem?' You also want to know 'why' and 'how.' What does it bring to the table? How does it actually work? If you can explain complex knowledge to a 5-year-old kid, then you know you have a deep and comprehensive understanding of it.
 
 * ##### Don't live with a broken window
 
-    If something has been done improperly - whether it be bad code or some hack/cheat in the codebase - take action on it ASAP. Don't leave it there and comfort yourself with the _"don't touch it if it works"_ mindset. By doing so, problems will not pile up, and your life will be easier. (from [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X).)
+    If something has been done improperly, whether it is bad code or some hack/cheat in the codebase, take action on it as soon as possible. Don't leave it there and comfort yourself with the _"don't touch it if it works"_ mindset. By doing so, problems will not pile up, and your life will be easier (from [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X).)
