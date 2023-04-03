@@ -17,7 +17,7 @@
 		tuned
 	</p>
 	<p>
-		If you want to contact me for work or by any chance, feel free to send me an email to <a class="hover-underline"
+		If you want to contact me for work or by any chance, feel free to send me an email to <a
 			href="mailto:tranvinhnhan@outlook.com"><strong>tranvinhnhan@outlook.com</strong></a
 		>
 	</p>
@@ -26,7 +26,8 @@
 		<li><s>Mobile responsiveness</s></li>
 		<li><s>Resume page</s></li>
 		<li><s>Contact page</s></li>
-		<li>Blog functionality</li>
+		<li><s>Blog functionality</s></li>
+		<li>Buy me a coffee</li>
 		<li>Footer misc</li>
 	</ul>
 </div>

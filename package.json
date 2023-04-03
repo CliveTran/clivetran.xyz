@@ -13,9 +13,10 @@
 		"gh-pages": "npm run build && echo clivetran.xyz > ./build/CNAME && touch ./build/.nojekyll && npx gh-pages -d build"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.5.0",
+		"@types/marked": "^4.0.8",
+		"@types/node": "^18.15.11",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"autoprefixer": "^10.4.14",
@@ -23,6 +24,7 @@
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"gh-pages": "^5.0.0",
+		"marked": "^4.3.0",
 		"postcss": "^8.4.21",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.8.1",

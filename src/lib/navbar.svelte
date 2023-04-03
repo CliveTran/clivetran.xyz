@@ -10,13 +10,13 @@
 	<code class="p-6"><a class="font-semibold" href="/">/clivetran.xyz</a></code>
 	<ul class="p-6 hidden sm:flex">
 		<li class="px-6 font-semibold">
-			<a class="pb-1 hover-underline" href="/resume">Resume</a>
+			<a class="pb-1" href="/resume">Resume</a>
 		</li>
 		<li class="px-6 font-semibold">
-			<a class="pb-1 hover-underline" href="/blog">Blog</a>
+			<a class="pb-1" href="/blog">Blog</a>
 		</li>
 		<li class="px-6 font-semibold">
-			<a class="pb-1 hover-underline" href="/contact">Contact</a>
+			<a class="pb-1" href="/contact">Contact</a>
 		</li>
 	</ul>
 	<button class="p-6 sm:hidden" on:click={toggleMenu}>
