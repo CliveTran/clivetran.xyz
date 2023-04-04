@@ -14,7 +14,7 @@ Here are some tips that I use literally everyday as a Software Engineer:
 
     Are you struggling to understand every format that comes across your everyday work to do simple conversions (e.g. XML to JSON, Cron Expression, etc)? I was there too, and the solution is simple, just typing the magic words _"\[something\] to \[something\] online converter"_. It's very likely that there's a tool out there that fits perfectly with your needs and can save you a vast amount of time.
 
-* ##### Make sure to understand things what you do to the very core
+* ##### Make sure to understand things that you work on to the very core
 
     Don't underestimate the importance of fundamental knowledge. Don't just ask, 'What's the solution to this problem?' You also want to know 'why' and 'how.' What does it bring to the table? How does it actually work? If you can explain complex knowledge to a 5-year-old kid, then you know you have a deep and comprehensive understanding of it.
 
