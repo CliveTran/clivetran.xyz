@@ -19,7 +19,7 @@
 			<a class="pb-1" href="/contact">Contact</a>
 		</li>
 	</ul>
-	<button class="p-6 sm:hidden" on:click={toggleMenu}>
+	<button class="p-6 sm:hidden" on:click={toggleMenu} aria-label="Menu">
 		<svg
 			class="menu"
 			width="24"
