@@ -2,10 +2,11 @@
 	import Footer from '../lib/footer.svelte';
 	import Navbar from '../lib/navbar.svelte';
 	import '../app.css';
+	import { title } from '../stores/title';
 </script>
 
 <svelte:head>
-	<title>Clive Tran</title>
+	<title>{$title}</title>
 	<meta name="google-site-verification" content="HWuHwIMteyCcPVDMs1CHJC0jXI0kq2i8Qx0_lEr9Gs0" />
 	<meta name="Description" content="An ordinary developer who loves sharing and learning about coding, programming, software, and technologies.">
 </svelte:head>
