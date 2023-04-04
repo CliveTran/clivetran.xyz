@@ -5,12 +5,12 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout.daf076ea.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.3dc6ed12.js">
+		<link href="./_app/immutable/assets/_layout.9662b3c1.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.cb60d2ef.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.2715cb34.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.9e568593.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.3875da57.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.f9bc34ca.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.a2a6e446.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.53bf9beb.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/title.ca00dd97.js">
 		<link rel="modulepreload" href="./_app/immutable/entry/_layout.ts.984db11e.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
@@ -33,14 +33,23 @@
 </nav>
 	<div class="container mx-auto flex-grow"><ul><li><h4><a href="/blog/useful-tips-that-will-make-your-life-easier-as-a-developer">Useful tips that will make your life easier as a developer</a></h4></li>
 		<i>3 Apr, 2023</i></ul></div>
-	<div class="container mx-auto"><div class="my-5 justify-around max-sm:flex"><div class="sm:flex"><p class="font-semibold">Me on social media:</p>
-			<ul class="sm:flex"><li class="mx-2"><a href="https://github.com/CliveTran" target="_blank" rel="noreferrer">Github</a></li>
-				<li class="mx-2"><a href="https://leetcode.com/CliveTran/" target="_blank" rel="noreferrer">Leetcode</a></li>
-				<li class="mx-2"><a href="https://www.linkedin.com/in/vinhnhan/" target="_blank" rel="noreferrer">Linkedin</a></li></ul></div>
-		<div class="sm:flex"><p class="font-semibold">Things you might like:</p>
-			<ul class="sm:flex"><li class="mx-2"><a href="/">Book recommendations</a></li>
-				<li class="mx-2"><a href="https://github.com/florinpop17/app-ideas" target="_blank" rel="noreferrer">App ideas</a></li>
-				<li class="mx-2"><a href="/">Useful websites</a></li></ul></div></div>
+	<div class="container mx-auto"><div id="web" class="my-5 max-sm:hidden justify-around sm:"><div class="flex"><p class="font-semibold">Me on social media:</p>
+			<ul class="flex svelte-9mjl5z"><li class="mx-2 svelte-9mjl5z"><a href="https://github.com/CliveTran" target="_blank" rel="noreferrer">Github</a></li>
+				<li class="mx-2 svelte-9mjl5z"><a href="https://leetcode.com/CliveTran/" target="_blank" rel="noreferrer">Leetcode</a></li>
+				<li class="mx-2 svelte-9mjl5z"><a href="https://www.linkedin.com/in/vinhnhan/" target="_blank" rel="noreferrer">Linkedin</a></li></ul></div>
+		<div class="flex"><p class="font-semibold">Things you might like:</p>
+			<ul class="flex svelte-9mjl5z"><li class="mx-2 svelte-9mjl5z"><a href="/">Book recommendations</a></li>
+				<li class="mx-2 svelte-9mjl5z"><a href="https://github.com/florinpop17/app-ideas" target="_blank" rel="noreferrer">App ideas</a></li>
+				<li class="mx-2 svelte-9mjl5z"><a href="/">Useful websites</a></li></ul></div></div>
+	<div id="mobile" class="my-5 sm:hidden svelte-9mjl5z"><hr class="mt-10 mx-auto">
+		<div class="mt-5"><p class="font-semibold">Me on social media:</p>
+			<ul><li class="svelte-9mjl5z"><a href="https://github.com/CliveTran" target="_blank" rel="noreferrer">Github</a></li>
+				<li class="svelte-9mjl5z"><a href="https://leetcode.com/CliveTran/" target="_blank" rel="noreferrer">Leetcode</a></li>
+				<li class="svelte-9mjl5z"><a href="https://www.linkedin.com/in/vinhnhan/" target="_blank" rel="noreferrer">Linkedin</a></li></ul></div>
+		<div class="mt-5"><p class="font-semibold">Things you might like:</p>
+			<ul class=""><li class="svelte-9mjl5z"><a href="/">Books recommendations</a></li>
+				<li class="svelte-9mjl5z"><a href="https://github.com/florinpop17/app-ideas" target="_blank" rel="noreferrer">App ideas</a></li>
+				<li class="svelte-9mjl5z"><a href="/">Useful websites</a></li></ul></div></div>
 	<p class="text-center">© 2023 - Clive Tran</p>
 </div></div>
 
@@ -48,7 +57,7 @@
 			
 			<script>
 				{
-					__sveltekit_1xijfko = {
+					__sveltekit_1iryces = {
 						env: {},
 						base: new URL(".", location).pathname.slice(0, -1),
 						element: document.currentScript.parentElement
@@ -57,10 +66,10 @@
 					const data = [null,{"type":"data","data":{posts:[{slug:"useful-tips-that-will-make-your-life-easier-as-a-developer",title:"Useful tips that will make your life easier as a developer",date:"3 Apr, 2023"}]},"uses":{}}];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.3dc6ed12.js"),
-						import("./_app/immutable/entry/app.3875da57.js")
+						import("./_app/immutable/entry/start.cb60d2ef.js"),
+						import("./_app/immutable/entry/app.a2a6e446.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_1xijfko.element, {
+						kit.start(app, __sveltekit_1iryces.element, {
 							node_ids: [0, 3],
 							data,
 							form: null,

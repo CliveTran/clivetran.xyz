@@ -1,4 +1,5 @@
-svg.menu.svelte-1c4oheg:hover{cursor:pointer}/*
+div#mobile.svelte-9mjl5z ul.svelte-9mjl5z li.svelte-9mjl5z{margin-top:0.5rem;margin-bottom:0.5rem
+}svg.menu.svelte-1c4oheg:hover{cursor:pointer}/*
 ! tailwindcss v3.3.1 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -524,8 +525,14 @@ video {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
+.mt-10 {
+  margin-top: 2.5rem;
+}
 .mt-2 {
   margin-top: 0.5rem;
+}
+.mt-5 {
+  margin-top: 1.25rem;
 }
 .block {
   display: block;
@@ -686,8 +693,8 @@ ol {
 
 @media not all and (min-width: 640px) {
 
-  .max-sm\:flex {
-    display: flex;
+  .max-sm\:hidden {
+    display: none;
   }
 
   .max-sm\:p-4 {
