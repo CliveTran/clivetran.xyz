@@ -7,6 +7,7 @@
 <svelte:head>
 	<title>Clive Tran</title>
 	<meta name="google-site-verification" content="HWuHwIMteyCcPVDMs1CHJC0jXI0kq2i8Qx0_lEr9Gs0" />
+	<meta name="Description" content="An ordinary developer.">
 </svelte:head>
 
 <div class="flex flex-col h-screen max-sm:p-4">
