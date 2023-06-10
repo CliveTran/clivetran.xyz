@@ -12,15 +12,18 @@
 	<b>Software Engineer, August 2020 - present</b>
 	<p><i>Netwealth - Investors & Wealth management platform</i></p>
 	<ul>
-		<li>Developing Public APIs with .NET/Azure for external and internal uses</li>
-		<li>Initializing, developing, managing CI/CD pipelines, API gateway</li>
-		<li>Identifying defects, providing feedback for improved performance, usability</li>
-		<li>Liaising with stakeholders</li>
+		<li>Collaborated with remote Australia-based team using scrum/agile development methods to deliver robust, valuable fin-tech solutions</li>
+		<li>Developed/designed backend services with the latest .NET version and Azure for external and internal uses</li>
+		<li>Managed CI/CD pipelines, testing, API gateway</li>
+		<li>Identified defects, resolving teething issues, and providing feedback for improved performance, usability</li>
+		<li>Discussed, dissected features into small pieces of work, liaising with stakeholders</li>
 	</ul>
 	<p><i>OPAL 2.0 - Digital learning space for employees and partners of the Ministry of Education, Singapore</i></p>
 	<ul>
-		<li>Developing core modules (course management, learning management)</li>
-		<li>Analyzing, dissecting work items into smaller tasks</li>
+		<li>Worked on developing a learning portal for the Ministry of Education in Singapore</li>
+		<li>Implemented backend services with .NET 5 and frontend applications using Angular to create intuitive UI/UX and valuable features</li>
+		<li>Anticipated and resolved any impediments that might cause issues and resolved bugs</li>
+		<li>Migrated an open-source learning technologies interoperability specification from NodeJS to .NET5</li>
 	</ul>
 	<h3 class="h3">Achievements</h3>
 	<p>Microsoft Certified: <a href="https://www.credly.com/badges/da7db76b-c31e-445c-b299-66c8a384fb6c" target="_blank" rel="noreferrer">AZ-900</a></p>
