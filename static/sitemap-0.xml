@@ -8,34 +8,38 @@
 
     <url>
         <loc>https://clivetran.xyz/</loc>
-        <lastmod>2023-06-10T20:02:50+00:00</lastmod>
+        <lastmod>2023-08-20T15:42:39+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
         <loc>https://clivetran.xyz/resume</loc>
-        <lastmod>2023-06-10T20:02:50+00:00</lastmod>
+        <lastmod>2023-08-20T15:42:39+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>https://clivetran.xyz/blog</loc>
-        <lastmod>2023-06-10T20:02:50+00:00</lastmod>
+        <lastmod>2023-08-20T15:42:39+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>https://clivetran.xyz/contact</loc>
-        <lastmod>2023-06-10T20:02:50+00:00</lastmod>
+        <lastmod>2023-08-20T15:42:39+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>
+            https://clivetran.xyz/blog/18-clean-code-remarkable-points-that-every-programmer-should-know</loc>
+        <lastmod>2023-08-20T15:42:39+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
         <loc>https://clivetran.xyz/blog/github-repos-that-you-wish-you-had-known-about-earlier</loc>
-        <lastmod>2023-06-10T20:02:50+00:00</lastmod>
+        <lastmod>2023-08-20T15:42:39+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
         <loc>https://clivetran.xyz/blog/useful-tips-that-will-make-your-life-easier-as-a-developer</loc>
-        <lastmod>2023-06-10T20:02:50+00:00</lastmod>
+        <lastmod>2023-08-20T15:42:39+00:00</lastmod>
         <priority>0.64</priority>
     </url>
-
-
 </urlset>
