@@ -2,7 +2,7 @@ import { marked } from "marked";
 
 export const load = async ({ fetch, params }) => {
   const slug = params['slug'];
-  const res: Response = await fetch(`/blogs/${slug}.md`);
+  const res: Response = await fetch(`/blog/${slug}.md`);
   if (res.status !== 200) {
     throw new Error();
   }
