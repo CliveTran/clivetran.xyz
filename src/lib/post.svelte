@@ -26,4 +26,7 @@
 	.buy-me-a-coffee {
 		@apply my-10;
 	}
+	:global(.post-container ul li) {
+		margin-bottom: 30px;
+	}
 </style>
