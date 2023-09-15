@@ -8,8 +8,11 @@
 		(2016 - 2020)
 	</p>
 	<h3 class="h3">Experience</h3>
+	<h4 class="h4">Employment Hero</h4>
+	<b>Software Engineer, September 2023 - present</b>
+	<p><i>KeyPay - Cloud payroll software</i></p>
 	<h4 class="h4">Orient Software</h4>
-	<b>Software Engineer, August 2020 - present</b>
+	<b>Software Engineer, August 2020 - September 2023</b>
 	<p><i>Netwealth - Investors & Wealth management platform</i></p>
 	<ul>
 		<li>Collaborated with remote Australia-based team using scrum/agile development methods to deliver robust, valuable fin-tech solutions</li>
